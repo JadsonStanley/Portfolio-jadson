@@ -134,10 +134,12 @@ body {
 }
 
 .foto-div {
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     background-color: rgb(189, 149, 103);
     border-radius: 10px;
+    image-rendering:optimizeQuality;
+    background-size: cover;
 }
 
 .section-projetos {
@@ -190,7 +192,7 @@ body {
     background-color: rgb(189, 149, 103);
     border-radius: 10px;
     margin: auto;
-
+    background-size: cover;
 }
 
 .sobremim-texto {
@@ -219,9 +221,19 @@ body {
     color: black;
 }
 
+.li-habilidades:hover {
+    transform: scale(1.03);
+}
+
 .habilidades-icons{
     width: 50px;  
 }
+
+.habilidades-icons:hover{
+    width: 50px;
+    transform: scale(1.03);
+}
+
 
 .mais-habilidades{
   margin: 10px auto;
