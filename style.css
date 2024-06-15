@@ -9,7 +9,7 @@
 
 body {
     background-color: rgb(15, 15, 15);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -290,6 +290,11 @@ footer {
 }
 
 @media (max-width:800px) {
+    
+    body{
+        max-width: 100%;
+    }
+
     div {
         max-width: 100%;
         flex-direction: column;
