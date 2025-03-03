@@ -368,13 +368,16 @@ footer {
     .section-projetos {
         margin-bottom: 200px;
     }
+
+    body{
+        overflow-x: hidden;
+    }
 }
 
 @media (max-width:800px) {
 
     body {
-        max-width: 100%;
-        overflow-x: hidden;
+        padding: 0 50px;
     }
 
     .jadson-stanley-animation {
@@ -441,9 +444,5 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .section-contato {
-        margin-top: 50px;
     }
 }
