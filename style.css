@@ -29,13 +29,16 @@ body {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .jadson-stanley-animation {
     transition: animation 1s linear;
     animation: animarnome 1s linear;
     position: relative;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 @keyframes animarnome {
@@ -155,6 +158,7 @@ section {
 
 .center {
     display: flex;
+    align-items: center;
     justify-content: center;
     transform: skewX(-20deg);
 }
@@ -368,16 +372,17 @@ footer {
     .section-projetos {
         margin-bottom: 200px;
     }
-
-    body{
-        overflow-x: hidden;
-    }
 }
 
 @media (max-width:800px) {
 
+    html {
+        overflow-x: hidden;
+    }
+
     body {
         padding: 0 50px;
+        overflow-x: hidden;
     }
 
     .jadson-stanley-animation {
@@ -421,8 +426,8 @@ footer {
     .foto-div {
         display: none;
     }
-    
-    .sobremimcaixastyle{
+
+    .sobremimcaixastyle {
         display: flex;
         justify-content: center;
         align-items: center;
